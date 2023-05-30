@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Home = () => {
+const VendorAdmin = () => {
   return (
     <React.Fragment>
+      
     </React.Fragment>
   )
 }
 
-export default Home
+export default VendorAdmin

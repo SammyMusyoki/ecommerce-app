@@ -1,3 +1,9 @@
+import { BsTwitter, BsFacebook} from 'react-icons/bs'
+
+
+
+
+
 export const HelpCentre = [
   { name: "Terms", link: "#" },
   { name: "Conditions", link: "#" },
@@ -21,9 +27,24 @@ export const Support = [
 ];
 
 export const Logos = [
-  { name: "facebook", link: "#" },
-  { name: "twitter", link: "#", },
-  { name: "github", link: "#", },
-  { name: "linkedin", link: "#", },
-  { name: "instagram", link: "#", },
+    {
+      name: 'facebook',
+      icon: <BsFacebook/>
+    },
+    {
+      name: 'instagram',
+      icon: <BsFacebook/>
+    },
+    {
+      name: 'twitter',
+      icon: <BsFacebook/>
+    },
+    {
+      name: 'twitch',
+      icon: <BsFacebook/>
+    },
+    {
+      name: 'whatsapp',
+      icon: <BsFacebook/>
+    },
 ];

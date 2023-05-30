@@ -8,13 +8,13 @@ const SeachInput = () => {
         action=""
         className="flex items-center justify-center gap-x-1"
       >
-        <div className="p-1 pr-6 bg-sky-100 rounded-r-full border-l-2 border-sky-400">
+        <div className="pr-6 bg-sky-100 rounded-r-full border-l-2 border-sky-400">
           <input
             type="search"
             name="search"
             id=""
             placeholder="Search for Shops, Products..."
-            className="w-full md:w-96 focus:border-red-500 border-none bg-transparent"
+            className="w-full md:w-96 p-3 bg-transparent rounded-full outline-none border-none"
           />
         </div>
         <button className="flex-shrink-0 rounded-full h-12 w-12 bg-sky-100 flex items-center justify-center">
